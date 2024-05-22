@@ -1,0 +1,143 @@
+/* Header */
+.header {
+  background-color: darkcyan;
+  color: black;
+  padding: 10px 0; /* Reduced padding for better alignment */
+}
+
+.header .navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.header .navbar-nav .nav-item {
+  margin-right: 15px;
+  color: black;
+}
+
+.header .navbar-nav .nav-link {
+  color: black;
+}
+
+.header .navbar-nav .nav-link:hover {
+  color: lightblue;
+}
+
+/* Container */
+.container {
+  margin: 20px auto;
+  max-width: 800px; /* Increased max-width for better form alignment */
+  padding: 20px;
+  border: 1px solid darkcyan;
+  border-radius: 5px;
+  background-color: lightblue; /* Light grey background for readability */
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff; /* Matching the button color */
+}
+
+/* Form */
+.feedback-form {
+  margin-top: 30px;
+}
+
+.feedback-form .form-group {
+  margin-bottom: 20px;
+}
+
+.feedback-form label {
+  font-weight: bold;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+  height: 100px; /* Set a fixed height for the textarea */
+}
+
+.feedback-form button[type="submit"] {
+  width: 100%; /* Make the submit button full width */
+  background-color: darkcyan;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.feedback-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+  background-color: #343a40;
+  color: darkcyan;
+  padding: 20px 0; /* Reduced padding for better alignment */
+}
+
+.footer h5 {
+  margin-bottom: 10px; /* Reduced margin for better alignment */
+  color: #343a40;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+  color: lightslategray;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: black;
+}
+
+.footer hr {
+  border-color: darkcyan; /* Matching the button color */
+}
+
+.footer p {
+  margin-top: 20px;
+  color: #333333;
+}
+
+.footer .fab {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer .fas {
+  margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  .header .navbar-nav .nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .footer .col-md-6 {
+    text-align: center;
+  }
+  .container {
+    padding: 10px; /* Adjust padding for smaller screens */
+    border: none; /* Remove border on smaller screens for better fit */
+  }
+  .feedback-form {
+    padding: 10px; /* Adjust padding for better fit on smaller screens */
+  }
+  .footer {
+    padding: 10px 0; /* Adjust padding for better fit on smaller screens */
+  }
+}

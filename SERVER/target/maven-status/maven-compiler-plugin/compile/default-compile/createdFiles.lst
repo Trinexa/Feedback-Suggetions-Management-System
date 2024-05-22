@@ -1,0 +1,7 @@
+com\example\backendmaven\bean\request\FeedbackRequestBean.class
+com\example\backendmaven\persistant\entity\FeedbackEntity.class
+com\example\backendmaven\service\FeedbackService.class
+com\example\backendmaven\controller\FeedbackController.class
+com\example\backendmaven\service\impl\FeedbackServiceImpl.class
+com\example\backendmaven\BackendMavenApplication.class
+com\example\backendmaven\persistant\repository\FeedbackRepo.class

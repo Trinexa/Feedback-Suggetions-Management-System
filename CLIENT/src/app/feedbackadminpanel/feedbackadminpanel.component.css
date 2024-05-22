@@ -1,0 +1,130 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: darkcyan;
+  flex: 1;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: black;
+}
+
+.feedback-form .form-group {
+  margin-bottom: 20px;
+}
+
+.feedback-form label {
+  font-weight: bold;
+}
+
+.feedback-form input,
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.feedback-form textarea {
+  resize: vertical;
+}
+
+.feedback-form button {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  background-color: lightgoldenrodyellow;
+  color: darkcyan;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: lightgreen;
+}
+
+.footer {
+  background-color: #343a40;
+  color: darkcyan;
+  padding: 20px 0;
+}
+
+.footer h5 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer .list-inline-item a {
+  color: #fff;
+}
+
+.footer .list-inline-item a:hover {
+  text-decoration: none;
+  color: green;
+}
+
+.footer hr {
+  border-color: #007bff;
+}
+
+.footer p {
+  margin-top: 20px;
+}
+
+.footer .fab {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer .fas {
+  margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+  .header .navbar-nav .nav-item {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .footer .col-md-6 {
+    text-align: center;
+  }
+  .container {
+    padding: 10px;
+    border: none;
+  }
+  .feedback-form {
+    padding: 10px;
+  }
+  .footer {
+    padding: 10px 0;
+  }
+}
